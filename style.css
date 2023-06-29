@@ -1,0 +1,34 @@
+
+#myid {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 196, 0);
+}
+#myid2 {
+    height: 12px;
+    width: 12px;
+    background-color: black;
+    border-radius: 50%;
+    position:relative;
+    top: 23px; left: 62px;
+
+}
+#myid3 {
+    height: 12px;
+    width: 12px;
+    background-color: black;
+    border-radius: 50%;
+    position:relative;
+    top: 12px; left: 25px;
+    
+}
+#myid4 {
+    height: 15px;
+    width: 50px;
+    background-color: maroon;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+    position:relative;
+    top: 40px; left: 25px;
+}
