@@ -1,0 +1,49 @@
+h2 {
+  color: rgb(183, 47, 138);
+}
+
+h1 {
+  font-weight: 900;
+}
+span {
+  color: rgb(170, 119, 52);
+}
+
+#pets {
+  display: flex;
+}
+
+.card {
+  width: 400px;
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 10px 30px 10px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+#pets {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 375px) {
+  #pets {
+    flex-wrap: wrap;
+  }
+}
+
+h4 {
+  text-align: right;
+  color: maroon;
+}
+
+.card:hover {
+  box-shadow: 8px 8px 15px black;
+}
