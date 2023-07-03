@@ -1,0 +1,33 @@
+h1 {
+  background-color: aqua;
+  color: black;
+  border: 2px solid black;
+}
+/* @media(width: 700px){
+    h1 {
+        background-color: blue;
+        color: white
+    }
+} */
+/* @media (min-width: 800px) {
+  h1 {
+    background-color: blueviolet;
+  }
+}
+@media (max-width: 500px) {
+  h1 {
+    background-color: chartreuse;
+    font-family: "Gill Sans";
+  }
+}
+@media (min-width: 900px) and (max-width: 1000px) {
+  h1 {
+    background-color: brown;
+  }
+} */
+@media(orientation: landscape){
+    h1{
+        text-align: center;
+        color: pink;
+    }
+}
