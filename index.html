@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@300;400;500;600;700&family=Roboto+Serif&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i id="home" class="fa-sharp fa-solid fa-house"></i>
+                    <a href="#" style="font-weight: 600;" >Home</a>
+                </div>
+                <div class="nav-option">
+                    <i id="search" class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    <a href="#" style="font-weight: 600;">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png" alt="">
+                        <a href="#" style="font-weight: 600;" >Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p> <br>
+                        <p class="box-p2">It's easy, we'll help you</p> <br>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p> <br>
+                        <p class="box-p2">We'll keep you updated on new episodes</p> <br>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png" alt="">
+                    <img src="./assets/forward_icon.png" class="hide" alt="">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-btn" "><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+                <h2 class="head">Recently played</h2><br>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="assets/like-icon.png" class="card-img" alt="">
+                        <p class="card-title">Liked Songs</p>
+                        <br>
+                        <p class="card-info">275 songs</p>
+                    </div>
+                </div>
+                <h2 class="head">Recommended for today</h2><br>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="assets/asim.jpg" class="card-img" alt="">
+                        <p class="card-title">Jo Tu Na Mila</p><br>
+                        <p class="card-info">Asim Azhar</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/rewritee.jpg" class="card-img" alt="">
+                        <p class="card-title">Rewrite The St...</p><br>
+                        <p class="card-info">James Arthur </p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/jihuzoori.jpg" class="card-img" alt="">
+                        <p class="card-title">Ji Huzoori</p><br>
+                        <p class="card-info">Mithoon, Deepali</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/iklamha.jpg" class="card-img" alt="">
+                        <p class="card-title">Ik Lamha</p><br>
+                        <p class="card-info">Azaan Sami Khan</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/terebina.jpg" class="card-img" alt="">
+                        <p class="card-title">tere bina</p><br>
+                        <p class="card-info">Zaeden</p>
+                    </div>
+                </div>
+                <h2 class="head">Podcasts</h2><br>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="assets/lex.jpg" class="card-img" alt="">
+                        <p class="card-title">Lex Fridman Podc...</p><br>
+                        <p class="card-info">Lex Fridman</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/scale.jpg" class="card-img" alt="">
+                        <p class="card-title">Masters of Scale</p><br>
+                        <p class="card-info">WaitWhat</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/lab.jpg" class="card-img" alt="">
+                        <p class="card-title">Huberman Lab</p><br>
+                        <p class="card-info">Scicomm Media</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/dairy.jpg" class="card-img" alt="">
+                        <p class="card-title">The Diary Of A CE...</p><br>
+                        <p class="card-info">Steven Bartlett</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/joe.jpg" class="card-img" alt="">
+                        <p class="card-title">The Joe Rogan Ex...</p><br>
+                        <p class="card-info">Joe Rogan</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+                
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-cover"><img src="assets/album_picture.jpeg" alt=""></div>
+                <div class="name">
+                    <p class="song-name">Pani da Rang (Male) </p>
+                    <p class="writer">Ayushmaan khurrana</p>
+                </div>
+                <div class="album-icons">
+                    <img src="assets/album_icon1.png" class="one ico" alt="">
+                    <img src="assets/album_icon2.png" class="two ico" alt="">
+                </div>
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="assets/player_icon1.png" class="player-control-icons" alt="">
+                    <img src="assets/player_icon2.png" class="player-control-icons" alt="">
+                    <img src="assets/player_icon3.png" class="player-control-icons" style="opacity: 1;height: 2rem;" alt="">
+                    <img src="assets/player_icon4.png" class="player-control-icons" alt="">
+                    <img src="assets/player_icon5.png" class="player-control-icons" alt="">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span  class="tot-time time">3:33</span> 
+                </div>
+            </div>
+
+            <div class="controls">
+                <!-- <img src="assets/controls_icon1.png" alt=""> -->
+                <img src="assets/controls_icon2.png" class="con-ico icon-a" alt="">
+                <img src="assets/controls_icon3.png" class="con-ico icon-b" alt="">
+                <img src="assets/controls_icon4.png" class="con-ico icon-c" alt="">
+                <img src="assets/controls_icon5.png" class="con-ico icon-d" alt="">
+                <input type="range" min="0" max="100" step="1" class="vol">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
